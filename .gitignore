@@ -164,3 +164,58 @@ cython_debug/
 .DS_STORE
 *.pt
 .aider*
+
+# Local SHARP inputs, outputs, caches, and environment files.
+# Personal material should preferably be kept outside this repository.
+/local-data/
+/private/
+/inputs/
+/outputs/
+/renderings/
+/checkpoints/
+/.conda/
+.env.*
+*.pem
+*.key
+
+# New image/video/audio files are private by default, including uppercase extensions.
+# Already tracked upstream assets (such as data/teaser.jpg) remain tracked.
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[pP][nN][gG]
+*.[wW][eE][bB][pP]
+*.[gG][iI][fF]
+*.[bB][mM][pP]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[hH][eE][iI][cC]
+*.[hH][eE][iI][fF]
+*.[aA][vV][iI][fF]
+*.[dD][nN][gG]
+*.[rR][aA][wW]
+*.[cC][rR]2
+*.[cC][rR]3
+*.[nN][eE][fF]
+*.[aA][rR][wW]
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM][kK][vV]
+*.[aA][vV][iI]
+*.[wW][eE][bB][mM]
+*.[mM][4][vV]
+*.[wW][aA][vV]
+*.[mM][pP]3
+*.[fF][lL][aA][cC]
+*.[mM]4[aA]
+
+# Model weights and scene/depth data may be large or reveal input content.
+*.[pP][tT]
+*.[pP][tT][hH]
+*.[cC][kK][pP][tT]
+*.[sS][aA][fF][eE][tT][eE][nN][sS][oO][rR][sS]
+*.[oO][nN][nN][xX]
+*.[pP][lL][yY]
+*.[sS][pP][lL][aA][tT]
+*.[sS][pP][zZ]
+*.[nN][pP][yY]
+*.[nN][pP][zZ]

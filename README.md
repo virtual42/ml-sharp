@@ -13,6 +13,8 @@ We present SHARP, an approach to photorealistic view synthesis from a single ima
 
 ## Getting started
 
+Windows / Conda 中文配置说明及安装进度：[本地安装配置文档](docs/INSTALL.zh-CN.md)。
+
 We recommend to first create a python environment:
 
 ```
